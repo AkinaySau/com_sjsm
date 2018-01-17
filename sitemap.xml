@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.6" method="upgrade">
+    <name>COM_SJSM</name>
+    <creationDate>13.01.2018</creationDate>
+    <author>Sau</author>
+    <authorEmail>akinaysau@gmail.com</authorEmail>
+    <authorUrl>http://a-sau.com</authorUrl>
+    <copyright>AkinaySau</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>COM_SJSM_XML_DESCRIPTION</description>
+
+    <files folder="com">
+        <filename>sjsm.php</filename>
+        <filename>controller.php</filename>
+        <folder>helpers</folder>
+        <folder>views</folder>
+    </files>
+    <languages folder="com/language">
+        <language tag="en-GB">en-GB/en-GB.com_sjsm.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.com_sjsm.ini</language>
+    </languages>
+
+    <administration>
+        <files folder="admin">
+            <filename>LICENSE.txt</filename>
+        </files>
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_sjsm.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_sjsm.sys.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_sjsm.ini</language>
+            <language tag="ru-RU">ru-RU/ru-RU.com_sjsm.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
